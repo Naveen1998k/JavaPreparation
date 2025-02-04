@@ -1,0 +1,39 @@
+Type of Constructor: Constructor
+     There are 3 types of constructors in Java:
+        1. Default Constructor
+        2. Parameterized Constructor
+        3. Copy Constructor
+        Constructor is a special type of method which is used to initialize the object.
+        Java constructor is invoked at the time of object creation.
+        It constructs the values i.e. provides data for the object that is why it is known as constructor.
+        Rules for creating Java constructor:
+        1. Constructor name must be the same as its class name
+        2. A Constructor must have no explicit return type
+        3. A Java constructor cannot be abstract, static, final, and synchronized
+        4. A constructor can be overloaded
+        5. A constructor cannot be inherited
+        6. A constructor can call another constructor using this keyword
+        7. A constructor can have access specifiers
+        8. A constructor can have parameters.
+
+        Default Constructor:
+        A constructor is called "Default Constructor" when it doesn't have any parameter.
+        It is used to provide the default values to the object like 0, null, etc., depending on the type.
+        Default Constructor is created by the compiler if you don't have any constructor in the class.
+        Default Constructor is used to provide the default values to the object.
+        Default Constructor is used to initialize the object with default values.
+
+        Parameterized Constructor:
+        A constructor is called "Parameterized Constructor" when it has parameters.
+        It is used to provide different values to distinct objects.
+        Parameterized Constructor is used to provide different values to the distinct objects.
+        Parameterized Constructor is used to initialize the object with different values.
+
+        Copy Constructor:
+        A constructor is called "Copy Constructor" when it has an object as a parameter.
+        It is used to initialize the object with the values of another object.
+        Copy Constructor is used to initialize the object with the values of another object.
+
+        Constructor Overloading:
+        Constructor Overloading is a concept of having more than one constructor with different parameters list, in such a way so that each constructor performs a different task.
+
