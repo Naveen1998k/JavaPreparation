@@ -11,7 +11,7 @@ public class NoArgsConstructor
     public static void main(String[] args) {
         //NoArgsConstructor  create at the time of Completion
         NoArgsConstructor customer = new NoArgsConstructor();
-        new NoArgsConstructor()
+        new NoArgsConstructor();
 
     }
 }
