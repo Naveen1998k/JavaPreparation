@@ -1,0 +1,29 @@
+Access Modifiers
+1. public
+2. private
+3. protected
+4. default
+
+ 1)public
+    - public access modifier is accessible from anywhere.
+    - It has the widest scope among all other access modifiers.
+    - It can be accessed from any class, any package, and any project.
+    - It is used to make the class, method, or field accessible from anywhere.
+    - According To Object Oriented rule we should use public access modifier for the class, method.
+    - Whereas Variables are declared as private
+ 2)private
+    - private access modifier is accessible only within the class.
+    - It has the narrowest scope among all other access modifiers.
+    - It can be accessed only within the class.
+    - It is used to make the class, method, or field accessible only within the class.
+    - Outer class we can't declared as private and protected
+    -In Java Outer class declared as public , abstract and final only
+ 3)protected
+    - protected access modifier is accessible within the package.
+    - It can be accessed within the package and outside the package but through inheritance only.
+
+    4)default
+    - default access modifier is accessible only within the package.
+    - It can be accessed only within the package.
+    - If we don't specify any access modifier then it will be default.
+    - It is used to make the class, method, or field accessible only within the package.
