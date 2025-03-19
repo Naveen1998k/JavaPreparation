@@ -9,6 +9,11 @@ public class DataHiding {
     }
 
     public void setA(int a) {
+        if(a<0)
+        {
+            System.out.println("Invalid Value");
+            return;
+        }
         this.a = a;
     }
 

@@ -19,9 +19,11 @@ public class InstanceVar
          System.out.println(obj.a); //11
        System.out.println(obj1.a); //9
 // changing the value of static variable
-       b++;
-       --b;
-         System.out.println(b); //20
+       ++obj.b;
+
+       ++obj1.b;
+         System.out.println(obj.b); //20
+       System.out.println(obj1.b);
 
 
     }
