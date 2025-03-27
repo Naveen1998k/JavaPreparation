@@ -5,7 +5,7 @@ interface A{
 interface B{
     void show();
 }
-class C implements A,B{
+class C implements One,B{
     public void show(){
         System.out.println("Hello");
     }
