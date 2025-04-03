@@ -2,6 +2,8 @@ package StaticBlock;
 
 
 class StaticBlock {
+
+    int val=10000;
     public StaticBlock() {
         System.out.println("Constructor Of StaticBlock class" );
     }
@@ -22,7 +24,7 @@ class StaticBlock {
         System.out.println("Static Block 2  "+x);
     }
     {
-        System.out.println("Instance Block 2");
+        System.out.println("Instance Block 2"+x);
     }
 }
 public class Demo {
